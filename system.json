@@ -1,0 +1,13 @@
+{
+    "id": "foundry-issue-10192",
+    "title": "foundry-issue-10192",
+    "description": "foundry-issue-10192",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": 11,
+        "verified": 11,
+        "maximum": 11
+    },
+    "schema": "0.031421",
+    "esmodules": ["main.js"]
+}

@@ -1,0 +1,22 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <table>
+        <tr>
+            <td>Attribute:</td>
+            <td>
+                <select name="system.prerequisite.attribute" data-dtype="String" {{disabled (not editable)}}>
+                    {{#select document.system.prerequisite.attribute}}
+                        <option value="strength">strength</option>
+                        <option value="intelligence">intelligence</option>
+                        <option value="dexterity">dexterity</option>
+                    {{/select}}
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Minimum:</td>
+            <td>
+                <input name="system.prerequisite.minimum" value="{{document.system.prerequisite.minimum}}" type="number" data-dtype="Number"  {{disabled (not editable)}} />
+            </td>
+        </tr>
+    </table>
+</form>
